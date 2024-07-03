@@ -39,8 +39,7 @@ description:{jd}
 """
 
 ## streamlit app
-st.title("Smart ATS")
-st.text("Improve Your Resume ATS")
+st.header("ATS Tracking System")
 jd=st.text_area("Paste the Job Description")
 uploaded_file=st.file_uploader("Upload Your Resume",type="pdf",help="Please uplaod the pdf")
 
